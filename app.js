@@ -19,7 +19,7 @@ var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
     indexRoutes      = require("./routes/index");
 
-mongoose.connect("mongodb://root:yelpman0s@ds033744.mlab.com:33744/man0s-yelpcamp",{ useMongoClient: true });
+mongoose.connect("YOUR MONGODB URI",{ useMongoClient: true });
 mongoose.Promise = global.Promise;
 
 
