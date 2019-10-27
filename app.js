@@ -12,6 +12,8 @@ var express     = require("express"),
     seedDB      = require("./seeds");
     // Comment     = require("./models/comments")
 
+const port = process.env.PORT || 3000;
+
 //REQUIRING ROUTES    
 var commentRoutes    = require("./routes/comments"),
     campgroundRoutes = require("./routes/campgrounds"),
@@ -55,6 +57,6 @@ app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
 //Listen
-app.listen(3000, () => {
-    console.log('YelpClone app is running on http://localhost:' + 3000);
+app.listen(port, () => {
+    console.log('YelpClone app is running on http://localhost:' + port);
 });
