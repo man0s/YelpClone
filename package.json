@@ -9,14 +9,14 @@
   "author": "man0s",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.2",,
+    "body-parser": "^1.18.2",
     "connect-flash": "^0.1.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "method-override": "^2.3.7",
     "mongoose": "^5.7.7",
-    "passport": "^0.4.0",,
+    "passport": "^0.4.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^4.4.0"
   },
