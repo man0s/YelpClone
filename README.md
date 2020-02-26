@@ -1,4 +1,4 @@
-# YelpClone [![Build Status](https://travis-ci.com/man0s/YelpClone.svg?branch=master)](https://travis-ci.com/man0s/YelpClone)
+# 🏔 YelpClone [![Build Status](https://travis-ci.com/man0s/YelpClone.svg?branch=master)](https://travis-ci.com/man0s/YelpClone)
 <p align="center">
    <img src="https://i.imgur.com/s96Jm8T.jpg">
 </p>
